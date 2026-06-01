@@ -12,8 +12,8 @@ ServerEvents.recipes((allthemods) => {
       right: {
         Name: right
       },
-      speed: speed || 1,
-      consumeRight: true
+      speed: speed || 1
+      // consumeRight убран — жидкости не расходуются
     }
 
     if (below) {
